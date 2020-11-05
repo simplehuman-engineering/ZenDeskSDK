@@ -21,10 +21,10 @@ let package = Package(
         
     ],
     targets: [
-        .binaryTarget(name: "ChatProvidersSDK", path: "ChatProvidersSDK.xcframework"),
-        .binaryTarget(name: "ChatSDK", path: "ChatSDK.xcframework"),
-        .binaryTarget(name: "CommonUISDK", path: "CommonUISDK.xcframework"),
-        .binaryTarget(name: "MessagingAPI", path: "MessagingAPI.xcframework"),
-        .binaryTarget(name: "SDKConfigurations", path: "SDKConfigurations.xcframework")
+        .binaryTarget(name: "ChatProvidersSDK", path: "./Sources/ChatProvidersSDK.xcframework"),
+        .binaryTarget(name: "ChatSDK", path: "./Sources/ChatSDK.xcframework"),
+        .binaryTarget(name: "CommonUISDK", path: "./Sources/CommonUISDK.xcframework"),
+        .binaryTarget(name: "MessagingAPI", path: "./Sources/MessagingAPI.xcframework"),
+        .binaryTarget(name: "SDKConfigurations", path: "./Sources/SDKConfigurations.xcframework")
     ]
 )
