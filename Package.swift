@@ -8,7 +8,13 @@ let package = Package(
     products: [
         .library(
             name: "ZenDeskSDK",
-            targets: ["ZenDeskSDK"]
+            targets: [
+                "ChatProvidersSDK",
+                "ChatSDK",
+                "CommonUISDK",
+                "MessagingAPI",
+                "SDKConfigurations"
+            ]
         ),
     ],
     dependencies: [
