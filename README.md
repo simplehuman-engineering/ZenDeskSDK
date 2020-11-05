@@ -1,3 +1,3 @@
 # ZenDeskSDK
 
-A description of this package.
+ZenDeskSDK hosted for Swift Package Manager Support
